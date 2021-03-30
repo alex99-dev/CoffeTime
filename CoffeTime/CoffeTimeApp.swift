@@ -11,7 +11,7 @@ import SwiftUI
 struct CoffeTimeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

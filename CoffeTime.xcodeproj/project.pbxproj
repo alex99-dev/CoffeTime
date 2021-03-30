@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		737830FC2611A53B0043E9A9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737830FB2611A53B0043E9A9 /* HomeView.swift */; };
+		7378310426120CF30043E9A9 /* JsonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7378310326120CF30043E9A9 /* JsonClass.swift */; };
 		73E20E75260F930E00354542 /* CoffeTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E20E74260F930E00354542 /* CoffeTimeApp.swift */; };
-		73E20E77260F930E00354542 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E20E76260F930E00354542 /* ContentView.swift */; };
 		73E20E79260F931000354542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E20E78260F931000354542 /* Assets.xcassets */; };
 		73E20E7C260F931000354542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E20E7B260F931000354542 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		737830FB2611A53B0043E9A9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7378310326120CF30043E9A9 /* JsonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonClass.swift; sourceTree = "<group>"; };
 		73E20E71260F930E00354542 /* CoffeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E20E74260F930E00354542 /* CoffeTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeTimeApp.swift; sourceTree = "<group>"; };
-		73E20E76260F930E00354542 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		73E20E78260F931000354542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73E20E7B260F931000354542 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		73E20E7D260F931000354542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				73E20E74260F930E00354542 /* CoffeTimeApp.swift */,
-				73E20E76260F930E00354542 /* ContentView.swift */,
+				737830FB2611A53B0043E9A9 /* HomeView.swift */,
+				7378310326120CF30043E9A9 /* JsonClass.swift */,
 				73E20E78260F931000354542 /* Assets.xcassets */,
 				73E20E7D260F931000354542 /* Info.plist */,
 				73E20E7A260F931000354542 /* Preview Content */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73E20E77260F930E00354542 /* ContentView.swift in Sources */,
+				737830FC2611A53B0043E9A9 /* HomeView.swift in Sources */,
+				7378310426120CF30043E9A9 /* JsonClass.swift in Sources */,
 				73E20E75260F930E00354542 /* CoffeTimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
